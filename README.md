@@ -1,5 +1,6 @@
  # Quantitative Finance Mini-Project
 Overview
+
 This project is a practical introduction to quantitative financial analysis using Python. It demonstrates how to acquire historical market data, calculate key performance and risk metrics, and visualize concepts from Modern Portfolio Theory (MPT), such as the Efficient Frontier.
 
 The analysis is performed within a Jupyter Notebook, and this guide explains how to set up the exact environment needed to run the code.
