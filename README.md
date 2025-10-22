@@ -13,10 +13,10 @@ Follow these steps to clone the repository and create the necessary Conda enviro
 1. Clone the Repository
 Open your terminal or Git Bash and run the following command to clone this repository to your local machine.
 
-git clone https://github.com/your-username/your-repository-name.git
+git clone [https://github.com/your-username/your-repository-name.git](https://github.com/HongButNotY/QuantitativeTradingMiniProject1.git)
 cd your-repository-name
 
-git clone https://github.com/your-username/your-repository-name.git
+git clone [https://github.com/your-username/your-repository-name.git](https://github.com/HongButNotY/QuantitativeTradingMiniProject1.git)
 cd your-repository-name
 Note: Remember to replace your-username and your-repository-name with my actual GitHub URL.
 
@@ -26,23 +26,17 @@ The environment.yml file included in this repository contains all the specific p
 # This command reads the YAML file and installs all dependencies
 conda env create -f environment.yml
 
-# This command reads the YAML file and installs all dependencies
-conda env create -f environment.yml
 3. Activate the New Environment
 Once the installation is complete, activate the environment. The environment's name is specified inside the environment.yml file.
 
 conda activate finance1
 
-# Replace 'finance_env' if your environment has a different name
-conda activate finance_env
 4. Register the Environment as a Jupyter Kernel
 To make this new environment available in Jupyter Notebook or Jupyter Lab, you need to register it as a kernel. This allows you to select it from within your notebook.
 
 # This makes the "Python (Finance Project)" kernel available in Jupyter
 python -m ipykernel install --user --name=finance_env --display-name="Python (Finance Project)"
 
-# This makes the "Python (Finance Project)" kernel available in Jupyter
-python -m ipykernel install --user --name=finance_env --display-name="Python (Finance Project)"
 How to Run the Project 🚀
 Start Jupyter Lab: With the finance_env environment still active, start Jupyter Lab by running:
 
